@@ -119,10 +119,6 @@ def get_vectorstore(text_chunks):
     # List of embedding models to add - from here added 
     embeddings_models = [
         "all-MiniLM-L6-v2",
-        "sentence-transformers/all-mpnet-base-v2", 
-        "intfloat/e5-small-v2",
-        "thenlper/gte-small",
-        "sentence-transformers/paraphrase-MiniLM-L6-v2"
     ]
 
     # Create dictionary to store embeddings
